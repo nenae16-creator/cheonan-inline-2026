@@ -1,15 +1,15 @@
 # 2026 천안시체육회장배 인라인 스피드대회 전광판
 
-공개 주소 (이 주소로 여세요):
+고고인라인처럼 대회 → 종목 → 조별 결과 → 선수 카드 순으로 보는 현장용 웹앱입니다.
 
-**https://nenae16-creator.github.io/inline/**
+## 바로 쓰는 방법
+1. 압축을 풀고 `index.html` 을 크롬으로 엽니다.
+2. 심판실 암호 **2026**
 
-> 이전 주소 `.../cheonan-inline-2026/` 는 GitHub Pages가 켜져 있지 않아 404가 뜩니다. 위 주소를 쓰세요.
+필수 파일: index.html, app.js, data.js, app.css
 
-## 다른 사람에게 보여주는 방법
-
-1. https://nenae16-creator.github.io/inline/ 로 전광판을 엽니다.
-2. **심판실** 암호 `2026` 입장 → 오른쪽 위 **공개 공유 시작** 을 누릅니다.
-3. 생긴 링크(`?room=...` 포함)를 카톡·문자로 보냅니다.
-4. 학부모·코치는 그 링크만 열면 페어링·조별 순위·기록·메달이 같이 갱신됩니다.
-5. 심판이 엑셀을 올리거나 기록을 입력하면 약 4초 안에 다른 화면에도 반영됩니다.
+## 다른 사람에게 보여 주기
+- Netlify Drop: https://app.netlify.com/drop 에 폴더를 옮김
+- Pages: https://nenae16-creator.github.io/cheonan-inline-2026/
+- Pages가 꺼져 있으면: https://raw.githack.com/nenae16-creator/cheonan-inline-2026/main/index.html
+- 심판실 입장 후 **공개 공유 시작** 을 누르면 `?room=` 링크가 생깁니다.

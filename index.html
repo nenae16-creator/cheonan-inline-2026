@@ -4,7 +4,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="theme-color" content="#071525">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="천안인라인">
   <title>2026 천안시체육회장배 인라인 스피드대회</title>
+  <link rel="preconnect" href="https://cdn.jsdelivr.net">
   <link href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css" rel="stylesheet">
   <link rel="stylesheet" href="app.css">
 </head>
@@ -33,11 +36,13 @@
       <button data-view="judge">심판실</button>
     </nav>
   </header>
-  <main class="wrap" id="view"></main>
+  <main class="wrap" id="view">
+    <div class="card"><p class="muted">불러오는 중… 같은 폴더에 data.js, app.js, app.css 가 있는지 확인하세요.</p></div>
+  </main>
   <div class="modal-bg" id="modal"></div>
   <div class="toast" id="toast"></div>
   <script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
-  <script src="data.boot.js"></script>
-  <script src="app.boot.js"></script>
+  <script src="data.js"></script>
+  <script src="app.js"></script>
 </body>
 </html>
